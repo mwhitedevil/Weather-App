@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mukta:wght@200&family=Nunito:wght@200&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.conatiner{
+    padding: 22px;
+    margin-top: 10px;
+    width: 350px;
+    border: 2px solid white;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+
+}
+img{
+    width: 210px;
+}
+.main{
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    
+}
+.main input{
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    caret-color: red;
+    background-color: rgb(19, 150, 202);
+    color: white;
+    font-size: 15px;
+
+}
+::placeholder{
+   color: aliceblue;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-left: 5px;
+    background-color: #0F2C59;
+    color: aliceblue;
+    padding: 5px 15px;
+
+}
